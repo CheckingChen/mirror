@@ -1322,22 +1322,22 @@ blockquote:after {
 }
 .trm-main-card-frame {
   position: relative;
-  z-index: 2;
-  transform: translateY(-410px);
+  z-index: 1;
+  transform: translateY(-300px) translateX(-50px);
 }
 .trm-main-card-frame .trm-main-card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: var(--card-padding, 40px);
-  border-radius: var(--card-border-radius, 10px);
+  border-radius: var(--card-border-radius, 220px);
   width: 100%;
   height: calc(100vh - 100px);
-  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.25);
   background-color: var(--theme-bg-color, #fcfcfe);
 }
 .trm-main-card-frame .trm-main-card.trm-active-el {
-  border-radius: 0;
+  border-radius: 30px;
 }
 .trm-main-card-frame .trm-main-card:before {
   content: '';
@@ -1414,7 +1414,7 @@ blockquote:after {
   object-position: top;
 }
 .trm-mc-header .trm-name {
-  font-size: 18px;
+  font-size: 20px;
 }
 .trm-mc-header .trm-name.trm-name-lg {
   font-size: 32px;
@@ -1659,13 +1659,13 @@ blockquote:after {
   margin-bottom: 0;
 }
 .trm-blog-categories {
-  text-align: center;
   position: relative;
+  z-index: 1;
   background-color: var(--theme-bg-color, #fcfcfe);
   border-radius: var(--card-border-radius, 10px);
   padding: var(--card-padding, 40px);
   margin-bottom: var(--card-bottom-card, 40px);
-  box-shadow: var(--box-shadow2, 0 2px 4px -2px rgba(0, 0, 0, 0.15));
+  box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.15);
 }
 .trm-blog-categories:before {
   content: '';
@@ -1685,7 +1685,7 @@ blockquote:after {
   font-size: 12px;
   font-weight: 600;
   display: inline-block;
-  padding: 3px 10px;
+  padding: 3px 30px;
   transform: translateY(-2px);
   background-color: var(--primary, #afb42b);
 }
@@ -2123,7 +2123,7 @@ form textarea:focus,
   z-index: 1;
   overflow: hidden;
   border-radius: 0 0 20px 20px;
-  box-shadow: var(--box-shadow2, 0 2px 4px -2px rgba(0, 0, 0, 0.15));
+  box-shadow: 0 0px 30px 0px rgba(0, 0, 0, 0.35);
 }
 .trm-banner .trm-slideshow {
   position: absolute;
