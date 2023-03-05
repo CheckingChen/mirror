@@ -1334,7 +1334,7 @@ blockquote:after {
   width: 100%;
   height: calc(100vh - 100px);
   box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.25);
-  background-color: var(--theme-bg-color, #fcfcfe);
+  background-color: #fcfcf5;
 }
 .trm-main-card-frame .trm-main-card.trm-active-el {
   border-radius: 30px;
