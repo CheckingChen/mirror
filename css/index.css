@@ -21,6 +21,7 @@
   --theme-bg-color: #fffdfb;
   --theme-bg-color-80: rgba(255, 253, 251, 0.8);
   --theme-bg2-color: #f6f6f6;
+  --theme-bg3-color: #fcfcf5;
   --box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.15);
   --box-shadow2: inset 0 0 4px -1px rgba(0, 0, 0, 0.15);
   --border-dotted: dotted 2px rgba(225, 225, 235, 0.9);
@@ -59,9 +60,10 @@
   --body-color-5: rgba(204, 205, 207, 0.05);
   --body-bg-color: #181818;
   --theme-color: #dedee0;
-  --theme-bg-color: #1d1d1d;
-  --theme-bg-color-80: rgba(29, 29, 29, 0.8);
+  --theme-bg-color: #252525;
+  --theme-bg-color-80: rgba(37, 37, 37, 0.8);
   --theme-bg2-color: #252525;
+  --theme-bg3-color: #1d1d1d;
   --box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.6);
   --box-shadow2: inset 0 0 4px -1px rgba(0, 0, 0, 0.6);
   --border-dotted: dotted 2px rgba(225, 225, 235, 0.15);
@@ -1334,7 +1336,7 @@ blockquote:after {
   width: 100%;
   height: calc(100vh - 100px);
   box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.25);
-  background-color: #fcfcf5;
+  background-color: var(--theme-bg3-color, #fcfcf5);
 }
 .trm-main-card-frame .trm-main-card.trm-active-el {
   border-radius: 30px;
@@ -2122,7 +2124,7 @@ form textarea:focus,
   position: relative;
   z-index: 1;
   overflow: hidden;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0px 100px 20px;
   box-shadow: 0 0px 30px 0px rgba(0, 0, 0, 0.35);
 }
 .trm-banner .trm-slideshow {
