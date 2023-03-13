@@ -103,7 +103,9 @@
 }
 body {
   font-weight: 500;
-  color: var(--body-color, #7B7B7D);
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--body-color, #474747);
   background-color: #00151f;
   letter-spacing: 0.05em;
   overflow: hidden;
