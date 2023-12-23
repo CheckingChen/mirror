@@ -35,7 +35,7 @@
 .search {
   position: relative;
   width: 100%;
-  max-width: 60%;
+  max-width: 100%;
   margin: 0 auto 20px auto;
   z-index: 2;
 }
