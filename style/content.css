@@ -2,15 +2,15 @@
 .article {
   position: relative;
   width: 100%;
-  max-width: 60%;
-  margin: 0 auto auto auto;
+  max-width: 1230px; /* 设置最大宽度 */
+  margin: 0 auto;
 }
 @media (prefers-color-scheme: dark) {
   .article {
     color: #d2d6da;
   }
 }
-@media (max-width: 100%) {
+@media (max-width: 768px) {
   .article {
     padding: 20px;
   }
@@ -18,10 +18,9 @@
 .article .article-header {
   padding: 20px 0 40px 0;
 }
-@media (max-width: 100%) {
+@media (max-width: 768px) {
   .article .article-header {
     padding: 0 0 40px 0;
-    max-width: 100%;
   }
 }
 .article .article-header h1 {
@@ -29,7 +28,7 @@
   line-height: 1.2;
   margin-bottom: 0;
 }
-@media (max-width: 100%) {
+@media (max-width: 768px) {
   .article .article-header h1 {
     font-size: 1.5em;
   }
@@ -86,7 +85,7 @@
   font-weight: bold;
   margin: 40px auto 30px auto;
 }
-@media (max-width: 100%) {
+@media (max-width: 768px) {
   .article-entry h1,
   .article-entry h2,
   .article-entry h3,
@@ -220,7 +219,7 @@
 .post-excerpt pre figure {
   margin: 0;
 }
-@media (max-width: 100%) {
+@media (max-width: 768px) {
   .article-entry,
   .post-excerpt {
     font-size: 16px;
