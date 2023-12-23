@@ -1146,7 +1146,7 @@ body.bio-open .site-wrapper .overlay {
 .article {
   position: relative;
   width: 100%;
-  max-width: 100%;
+  max-width: 60%;
   margin: 0 auto auto auto;
 }
 @media (prefers-color-scheme: dark) {

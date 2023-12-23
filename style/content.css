@@ -2,7 +2,7 @@
 .article {
   position: relative;
   width: 100%;
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto auto auto;
 }
 @media (prefers-color-scheme: dark) {
