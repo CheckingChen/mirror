@@ -34,7 +34,9 @@
   <link rel="stylesheet" href="/css/twikoo.css">
 	<!-- If needed, replace your own web font service -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Inconsolata|Oswald" rel="stylesheet" />
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap">
+  <!-- 引入思源黑体字体 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Han+Sans:wght@400;500;700;900&display=swap">
   
    
   
@@ -44,7 +46,7 @@
 <link rel="stylesheet" href="/style.css">
 
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="31100Cafe" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="31100Cafe" type="application/atom+xml">
 </head>
 
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
@@ -73,15 +75,15 @@
      <span class="b">0</span>
      <span class="b">0</span>
   </a>
-  <a class="logo square clearfix" href="https://www.biuling.top/leaves/" target="_self"><!--链接点击字母就会跳转-->
+  <a class="logo square clearfix" href="https://www.biuling.top/leaves/" target="_self" title="Leaf｜留言"><!--链接点击字母就会跳转-->
      <span class="w">C</span>
   </a>
-  <a class="logo square clearfix" href="https://www.biuling.top/about/" target="_self"><!--链接点击字母就会跳转-->
+  <a class="logo square clearfix" href="https://www.biuling.top/about/" target="_self" title="About｜关于"><!--链接点击字母就会跳转-->
      <span class="w">A</span>
   </a>
-  <a class="logo square clearfix" href="https://31100cafe.notion.site/d10c53aa87894346bf153c72691a11d4?v=9ffd40124a52480aa0e7c7be9a2d90e5" target="_self"><!--链接点击字母就会跳转-->
-     <span class="w">F</span>
-  </a>
+  <a class="logo square clearfix" href="https://www.biuling.top/links/" target="_self" title="Friend｜友链">
+   <span class="w">F</span>
+ </a> 
   <a class="logo square clearfix"><!--链接点击字母就会跳转-->
      <span class="w">E</span>
   </a>
@@ -104,7 +106,7 @@
       一带一风
     </h1>
     <div class="article-meta">
-      写于 
+      翻新于 
       <time class="article-time" datetime="2022-09-12T09:05:22.000Z" itemprop="datePublished">
         <font style="font-family: Montserrat;">2022 的 Sep 12 | 📋 <a href=" /categories/%E9%9A%8F%E8%AE%B0%E6%9C%AC/"><font color="grey">随记本</font></a></font>
       </time>
@@ -129,26 +131,32 @@
 <p>让人想起去年十月中旬吹往广东的一个台风，那时我们真的突然就被通知放台风假。<br><strong>12日</strong>更新：<br><img src="https://cdn.staticaly.com/gh/CheckingChen/image-hosting@master/20230202/1662974959941.38va99r27gu0.webp"><br>左一是即将在15号登陆舟山一块的“梅花”，估测强台风级<br>中间是即将在18号经过日韩海峡的14号台风（应该是，梅花是202212的话，右三去阿拉斯加那边的202213苗柏之后，就是夹在中间的14了）<br><img src="https://cdn.staticaly.com/gh/CheckingChen/image-hosting@master/20230202/1662975541078.5sqsexer1bw0.webp"><br>逐渐发展成热带低压<br><img src="https://cdn.staticaly.com/gh/CheckingChen/image-hosting@master/20230202/1662975570262.62y25supl9k0.webp"><br><img src="https://cdn.staticaly.com/gh/CheckingChen/image-hosting@master/20230202/1662975580981.68t9jutf0n80.webp"><br>当14经过海峡时，它原来生成的位置又出现了一个胚胎<br><img src="https://cdn.staticaly.com/gh/CheckingChen/image-hosting@master/20230202/1662975710942.6xdypuzkriw0.webp"><br><img src="https://cdn.staticaly.com/gh/CheckingChen/image-hosting@master/20230202/1662975780762.33k9j4sbeqg0.webp"></p>
 
   </div>
-  
-  <div class="article-tags">
+  <div style="text-align: center; margin: auto;">- ☕ -</div>
+ <!-- <div class="article-tags">
     
-  </div>
+  </div>-->
 
   
+  <section id="comments" class="white-box">
+    <div id="tcomment"></div>
+    <script src="https://cdn.staticfile.org/twikoo/1.6.8/twikoo.all.min.js"></script>
+    <script>
+    twikoo.init({
+      envId: 'https://twikoo-comment.biuling.top/', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+      el: '#tcomment', // 容器元素
+      lang: 'zh-CN',
+      // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+      // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+      // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+    })
+    </script> 
+	</section>
+	
 
+
+ 
 </article>
-<div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.8/twikoo.all.min.js"></script>
-<script>
-twikoo.init({
-  envId: 'https://twikoo-comment.biuling.top/', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
-  el: '#tcomment', // 容器元素
-  lang: 'zh-CN',
-  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
-  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
-  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
-})
-</script>
+
 
       <script>document.getElementById("loading-bar").style.width="60%";</script>
     </main>

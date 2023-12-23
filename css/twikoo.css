@@ -1,11 +1,13 @@
 #twikoo {
   transform: scale(1);
   transform-origin: top;
-  padding: 0.8% 10%;
-  font-size: 16px;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  padding: 1.6% 15%;
+  font-size: 16.5px;
+  border-radius: 10px;
+  font-family: 'Source Han Sans', sans-serif;  
+  z-index: 100; /* 设置 z-index 为 100 */
 }
+  
 /* 设置文字内容 :nth-child(1)的作用是选择第几个 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
     content: '输入QQ号会自动获取昵称和头像🐧';
@@ -62,7 +64,7 @@
 
 /************ twikoo评论中的背景框样式调整 ************/
 #twikoo .tk-content {
-    background: rgb(235 235 235 / 60%);
+    background: rgba(241, 241, 241, 0.794);
     padding: 10px 15px;
     border-radius: 10px;
 }
@@ -75,8 +77,8 @@
 /* 收起/展开的长条按钮样式 */
 .tk-expand {
   background: var(--card-bg);
-  border: 1px solid #e0e3ed;
-  box-shadow: 0 5px 10px rgb(189 189 189 / 10%);
+  border: 2px solid #65656596;
+  box-shadow: 0 5px 10px rgba(189, 189, 189, 0.416);
   transition: all .3s ease-in-out;
-  border-radius: 12px;
+  border-radius: 6px;
 }

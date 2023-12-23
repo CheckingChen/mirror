@@ -1,8 +1,9 @@
+@charset "UTF-8";
 .article {
   position: relative;
   width: 100%;
-  max-width: 728px;
-  margin: 0 auto 20px auto;
+  max-width: 60%;
+  margin: 0 auto auto auto;
 }
 @media (prefers-color-scheme: dark) {
   .article {
@@ -42,7 +43,7 @@
 .article-entry,
 .post-excerpt {
   position: relative;
-  font-family: "Crimson Text", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 18px;
   color: #393a3a;
   padding-bottom: 30px;
@@ -80,7 +81,7 @@
 .post-excerpt h5,
 .post-excerpt h6 {
   position: relative;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Source Han Sans", sans-serif;
   font-weight: bold;
   margin: 40px auto 30px auto;
 }
@@ -115,14 +116,15 @@
   position: absolute;
   left: -20px;
   top: 0;
-  content: "#";
   color: #4caf50;
   font-weight: normal;
 }
 .article-entry p,
 .post-excerpt p {
-  margin-bottom: 20px;
-  line-height: 1.75em;
+  margin-bottom: 15px; /* 调整段落的下边距 */
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 18px;
 }
 .article-entry figure,
 .post-excerpt figure {
@@ -166,6 +168,7 @@
   height: auto;
   margin: 0 auto;
   border-radius: 30px;
+  margin-bottom: 30px; /* 调整下边距 */
 }
 .article-entry blockquote,
 .post-excerpt blockquote {

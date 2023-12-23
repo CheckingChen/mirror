@@ -51,3 +51,22 @@
     left: 50%;
     transform: translate(-50%, -48px);
 }
+
+/* 隐藏tooltip文字 */
+.tooltip {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* 背景色 */
+    padding: 5px 10px; /* 文字边距 */
+    border-radius: 5px; /* 圆角 */
+  }
+  
+  /* 鼠标悬停时显示tooltip文字 */
+  .logo:hover .tooltip {
+    opacity: 1;
+  }
+  

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -325,11 +326,11 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Source Han Sans", sans-serif;
   font-size: 1.8rem;
   line-height: 1.5em;
   color: #414141;
-  background-image: url("https://jsd.cdn.zzko.cn/gh/CheckingChen/image-hosting@master/u=3883495778,2091244617&fm=253&app=138&f=JPEG.12xjwzwglhv4.webp");
+  background-image: url("https://jsd.cdn.zzko.cn/gh/CheckingChen/image-hosting@master/4321.3t85i0jkvx40.webp");
   background-attachment: relative;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -686,7 +687,7 @@ body.bio-open .site-wrapper .overlay {
   left: 0px;
   background-color: #414141;
   padding: 0px 14px 4px 10px;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", "Source Han Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: rgb(187, 243, 255);
@@ -703,7 +704,7 @@ body.bio-open .site-wrapper .overlay {
   width: 100%;
 }
 .treat-block.treat-block-footer {
-  max-width: 728px;
+  max-width: 60%;
 }
 .treat-block.treat-block-footer img {
   width: 100%;
@@ -713,7 +714,7 @@ body.bio-open .site-wrapper .overlay {
 #page-nav {
   position: relative;
   width: 100%;
-  max-width: 728px;
+  max-width: 60%;
   margin: 20px auto 0 auto;
   transition: all 0.4s;
   transform: translate3d(0px, -20px, 0px);
@@ -822,7 +823,7 @@ body.bio-open .site-wrapper .overlay {
 .search {
   position: relative;
   width: 100%;
-  max-width: 728px;
+  max-width: 60%;
   margin: 0 auto 20px auto;
   z-index: 2;
 }
@@ -854,7 +855,7 @@ body.bio-open .site-wrapper .overlay {
   line-height: 36px;
   height: 36px;
   font-size: 14px;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", "Source Han Sans", sans-serif;
   border: none;
   border-radius: 0 !important;
   background: #414141;
@@ -882,7 +883,7 @@ body.bio-open .site-wrapper .overlay {
   border: 1px solid black;
   padding: 0 15px;
   font-size: 13px;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", "Source Han Sans", sans-serif;
   text-align: center;
   color: #c2c2c2;
 }
@@ -1145,8 +1146,8 @@ body.bio-open .site-wrapper .overlay {
 .article {
   position: relative;
   width: 100%;
-  max-width: 728px;
-  margin: 0 auto 20px auto;
+  max-width: 60%;
+  margin: 0 auto auto auto;
 }
 @media (prefers-color-scheme: dark) {
   .article {
@@ -1186,7 +1187,7 @@ body.bio-open .site-wrapper .overlay {
 .article-entry,
 .post-excerpt {
   position: relative;
-  font-family: "Crimson Text", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 18px;
   color: #393a3a;
   padding-bottom: 30px;
@@ -1224,7 +1225,7 @@ body.bio-open .site-wrapper .overlay {
 .post-excerpt h5,
 .post-excerpt h6 {
   position: relative;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Source Han Sans", sans-serif;
   font-weight: bold;
   margin: 40px auto 30px auto;
 }
@@ -1259,14 +1260,15 @@ body.bio-open .site-wrapper .overlay {
   position: absolute;
   left: -20px;
   top: 0;
-  content: "#";
   color: #4caf50;
   font-weight: normal;
 }
 .article-entry p,
 .post-excerpt p {
-  margin-bottom: 20px;
-  line-height: 1.75em;
+  margin-bottom: 15px; /* 调整段落的下边距 */
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 18px;
 }
 .article-entry figure,
 .post-excerpt figure {
@@ -1310,6 +1312,7 @@ body.bio-open .site-wrapper .overlay {
   height: auto;
   margin: 0 auto;
   border-radius: 30px;
+  margin-bottom: 30px; /* 调整下边距 */
 }
 .article-entry blockquote,
 .post-excerpt blockquote {

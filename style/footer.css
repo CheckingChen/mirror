@@ -35,7 +35,7 @@
 .search {
   position: relative;
   width: 100%;
-  max-width: 728px;
+  max-width: 60%;
   margin: 0 auto 20px auto;
   z-index: 2;
 }
@@ -67,7 +67,7 @@
   line-height: 36px;
   height: 36px;
   font-size: 14px;
-  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Oswald", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", "Source Han Sans", sans-serif;
   border: none;
   border-radius: 0 !important;
   background: #414141;
